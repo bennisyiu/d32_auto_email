@@ -2,8 +2,8 @@ import datetime as dt
 import random
 import smtplib
 
-MY_EMAIL = email
-MY_PASSWORD = password
+MY_EMAIL = EMAIL
+MY_PASSWORD = PASSWORD
 
 now = dt.datetime.now()
 weekday = now.weekday()
